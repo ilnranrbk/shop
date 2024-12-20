@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MyStore</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">MyStore</div>
+        <nav>
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#categories">Categories</a>
+            <a href="#about">About Us</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to MyStore</h1>
+        <p>Your destination for the latest trends and exclusive offers.</p>
+        <button id="shop-now-btn">Shop Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyStore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
